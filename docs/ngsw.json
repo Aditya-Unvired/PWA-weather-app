@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1666239744804,
+  "index": "weather-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "weather-app/favicon.ico",
+        "weather-app/index.html",
+        "weather-app/main.18553c68085eae6a.js",
+        "weather-app/manifest.webmanifest",
+        "weather-app/polyfills.019a1b69ab446621.js",
+        "weather-app/runtime.b0168126f84316f3.js",
+        "weather-app/styles.9f7679ff3f97f4cc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "weather-app/assets/icons/icon-128x128.png",
+        "weather-app/assets/icons/icon-144x144.png",
+        "weather-app/assets/icons/icon-152x152.png",
+        "weather-app/assets/icons/icon-192x192.png",
+        "weather-app/assets/icons/icon-384x384.png",
+        "weather-app/assets/icons/icon-512x512.png",
+        "weather-app/assets/icons/icon-72x72.png",
+        "weather-app/assets/icons/icon-96x96.png",
+        "weather-app/color.dae87a04d07ca92b.png",
+        "weather-app/hue.8b1818380241e6ac.png",
+        "weather-app/primeicons.0112589c5695a9ed.ttf",
+        "weather-app/primeicons.943ab24c43224d29.svg",
+        "weather-app/primeicons.ba3f916dfb64be8c.woff2",
+        "weather-app/primeicons.f8b9e8a4e401b603.woff"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "weather-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "weather-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "weather-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "weather-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "weather-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "weather-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "weather-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "weather-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "weather-app/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
+    "weather-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "weather-app/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
+    "weather-app/index.html": "0941ab9136777ca6d9090b8dbdd7745c4daf750b",
+    "weather-app/main.18553c68085eae6a.js": "93c4bf62e1ee358d61c6eb5d5be00a07c67698de",
+    "weather-app/manifest.webmanifest": "761c319663f6c6af679975be07acc5ea54441841",
+    "weather-app/polyfills.019a1b69ab446621.js": "8af72949c49531b5812a3a952999741e070c8f7a",
+    "weather-app/primeicons.0112589c5695a9ed.ttf": "ceeb46d594fde5cc507cdf8b70e38e78fe47653c",
+    "weather-app/primeicons.943ab24c43224d29.svg": "d3332a45242b8f6edbf3f3c7176a280e7edcd961",
+    "weather-app/primeicons.ba3f916dfb64be8c.woff2": "55a4b2a5f02e362405d8d874903af0b5f6a6c15d",
+    "weather-app/primeicons.f8b9e8a4e401b603.woff": "b1648b50be13350fde8b5d9a6fe78354ddcc43e4",
+    "weather-app/runtime.b0168126f84316f3.js": "fb4fdda05ba0893382fb304d8d76054035214901",
+    "weather-app/styles.9f7679ff3f97f4cc.css": "b1bf8f06911bba857ed89c9a584f7ed10d93707a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
