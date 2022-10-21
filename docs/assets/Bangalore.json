@@ -1,0 +1,445 @@
+{
+    "list": [
+        {
+            "dt": 1666332000,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 298.93,
+                "temp_max": 299.74,
+                "pressure": 1019,
+                "sea_level": 1019,
+                "grnd_level": 913,
+                "humidity": 100,
+                "temp_kf": 0.81
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "03d"
+                }
+            ],
+            "clouds": {
+                "all": 40
+            },
+            "wind": {
+                "speed": 4.56,
+                "deg": 84,
+                "gust": 5.56
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-21 06:00:00"
+        },
+        {
+            "dt": 1666342800,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 298.52,
+                "temp_max": 299.33,
+                "pressure": 1016,
+                "sea_level": 1016,
+                "grnd_level": 911,
+                "humidity": 100,
+                "temp_kf": 0.81
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "Always Sunny!!!!",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": {
+                "all": 60
+            },
+            "wind": {
+                "speed": 4.19,
+                "deg": 78,
+                "gust": 5.14
+            },
+            "visibility": 10000,
+            "pop": 0.51,
+            "rain": {
+                "3h": 0.32
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-21 09:00:00"
+        },
+        {
+            "dt": 1666353600,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 296.12,
+                "temp_max": 297.33,
+                "pressure": 1014,
+                "sea_level": 1014,
+                "grnd_level": 911,
+                "humidity": 100,
+                "temp_kf": 1.21
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "Always Sunny!!!!",
+                    "icon": "10d"
+                }
+            ],
+            "clouds": {
+                "all": 78
+            },
+            "wind": {
+                "speed": 4.2,
+                "deg": 80,
+                "gust": 6.64
+            },
+            "visibility": 10000,
+            "pop": 0.94,
+            "rain": {
+                "3h": 0.57
+            },
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-21 12:00:00"
+        },
+        {
+            "dt": 1666364400,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 293.28,
+                "temp_max": 293.28,
+                "pressure": 1015,
+                "sea_level": 1015,
+                "grnd_level": 913,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 500,
+                    "main": "Rain",
+                    "description": "Always Sunny!!!!",
+                    "icon": "10n"
+                }
+            ],
+            "clouds": {
+                "all": 47
+            },
+            "wind": {
+                "speed": 3.28,
+                "deg": 66,
+                "gust": 7.76
+            },
+            "visibility": 10000,
+            "pop": 0.81,
+            "rain": {
+                "3h": 2.96
+            },
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2022-10-21 15:00:00"
+        },
+        {
+            "dt": 1666375200,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 292.65,
+                "temp_max": 292.65,
+                "pressure": 1015,
+                "sea_level": 1015,
+                "grnd_level": 913,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "03n"
+                }
+            ],
+            "clouds": {
+                "all": 42
+            },
+            "wind": {
+                "speed": 2.61,
+                "deg": 78,
+                "gust": 5.74
+            },
+            "visibility": 10000,
+            "pop": 0.82,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2022-10-21 18:00:00"
+        },
+        {
+            "dt": 1666386000,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 291.89,
+                "temp_max": 291.89,
+                "pressure": 1013,
+                "sea_level": 1013,
+                "grnd_level": 911,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "03n"
+                }
+            ],
+            "clouds": {
+                "all": 33
+            },
+            "wind": {
+                "speed": 2.11,
+                "deg": 71,
+                "gust": 3.62
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2022-10-21 21:00:00"
+        },
+        {
+            "dt": 1666396800,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 291.46,
+                "temp_max": 291.46,
+                "pressure": 1014,
+                "sea_level": 1014,
+                "grnd_level": 912,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "03n"
+                }
+            ],
+            "clouds": {
+                "all": 27
+            },
+            "wind": {
+                "speed": 2.27,
+                "deg": 45,
+                "gust": 3.86
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2022-10-22 00:00:00"
+        },
+        {
+            "dt": 1666407600,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 294.87,
+                "temp_max": 294.87,
+                "pressure": 1016,
+                "sea_level": 1016,
+                "grnd_level": 915,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 75
+            },
+            "wind": {
+                "speed": 3.71,
+                "deg": 64,
+                "gust": 5.59
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-22 03:00:00"
+        },
+        {
+            "dt": 1666418400,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 298.73,
+                "temp_max": 298.73,
+                "pressure": 1014,
+                "sea_level": 1014,
+                "grnd_level": 914,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 72
+            },
+            "wind": {
+                "speed": 3.73,
+                "deg": 50,
+                "gust": 4.5
+            },
+            "visibility": 10000,
+            "pop": 0.03,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-22 06:00:00"
+        },
+        {
+            "dt": 1666429200,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 299.68,
+                "temp_max": 299.68,
+                "pressure": 1011,
+                "sea_level": 1011,
+                "grnd_level": 911,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 81
+            },
+            "wind": {
+                "speed": 4.49,
+                "deg": 30,
+                "gust": 5.01
+            },
+            "visibility": 10000,
+            "pop": 0.2,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-22 09:00:00"
+        },
+        {
+            "dt": 1666440000,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 296.44,
+                "temp_max": 296.44,
+                "pressure": 1012,
+                "sea_level": 1012,
+                "grnd_level": 911,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 84
+            },
+            "wind": {
+                "speed": 3.52,
+                "deg": 31,
+                "gust": 6.12
+            },
+            "visibility": 10000,
+            "pop": 0.2,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2022-10-22 12:00:00"
+        },
+        {
+            "dt": 1666450800,
+            "main": {
+                "temp": 2,
+                "feels_like": 99.99,
+                "temp_min": 294.18,
+                "temp_max": 294.18,
+                "pressure": 1015,
+                "sea_level": 1015,
+                "grnd_level": 913,
+                "humidity": 100,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 804,
+                    "main": "Clouds",
+                    "description": "Always Sunny!!!!",
+                    "icon": "04n"
+                }
+            ],
+            "clouds": {
+                "all": 100
+            },
+            "wind": {
+                "speed": 3.42,
+                "deg": 27,
+                "gust": 7.95
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2022-10-22 15:00:00"
+        }
+    ]
+}
