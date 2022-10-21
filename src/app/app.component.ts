@@ -54,6 +54,7 @@ export class AppComponent {
         console.log('errrr',err);
         this.weather = localStorage.getItem('data');
         this.weather = JSON.parse(this.weather);
+        console.log('errr data',this.weather);
       }
     );
   }
