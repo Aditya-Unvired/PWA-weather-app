@@ -13,6 +13,7 @@ export class AppComponent {
   public form: FormGroup;
   
   constructor(public _weatherService: WeatherService, private formBuilder: FormBuilder) {
+    console.log('working')
     this.form = this.formBuilder.group({
       city: new FormControl(),
       country: new FormControl()
@@ -20,12 +21,12 @@ export class AppComponent {
   }
   
   ngOnInit() {
+    this._weatherService.loadDataLocally();
     alert('working')
     console.log('working')
     addEventListener('online', (e) =>{
       alert('You are Online!!!')
       console.log('online') 
-      this._weatherService.loadDataLocally();
     })
     addEventListener('offline', (e) =>{
       alert('You are Offline!!!')
@@ -42,6 +43,7 @@ export class AppComponent {
   }
   
   displayWeather() {
+    console.log('called for data')
     this._weatherService.getWeather(this.form.controls['city'].value, this.form?.controls['country'].value).subscribe((data: any) => 
     {
         if (data?.cod === "200") {
