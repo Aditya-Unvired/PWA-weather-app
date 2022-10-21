@@ -20,6 +20,7 @@ export class AppComponent {
   }
   
   ngOnInit() {
+    this._weatherService.loadDataLocally();
     console.log('working')
     addEventListener('online', (e) =>{
       alert('You are Online!!!')
@@ -28,7 +29,6 @@ export class AppComponent {
     addEventListener('offline', (e) =>{
       alert('You are Offline!!!')
       console.log('offline')
-      this._weatherService.loadDataLocally();
     });
   }
   
