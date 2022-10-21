@@ -20,6 +20,7 @@ export class AppComponent {
   }
   
   ngOnInit() {
+    alert('working')
     console.log('working')
     addEventListener('online', (e) =>{
       alert('You are Online!!!')
