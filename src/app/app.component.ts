@@ -12,14 +12,25 @@ export class AppComponent {
   weather: any = null;
   public form: FormGroup;
   
-  constructor(public _weatherService: WeatherService, private formBuilder: FormBuilder,) {
+  constructor(public _weatherService: WeatherService, private formBuilder: FormBuilder) {
     this.form = this.formBuilder.group({
       city: new FormControl(),
       country: new FormControl()
     })
   }
   
-  ngOnInit(): void {}
+  ngOnInit() {
+    console.log('working')
+    addEventListener('online', (e) =>{
+      alert('You are Online!!!')
+      console.log('online') 
+      this._weatherService.loadDataLocally();
+    })
+    addEventListener('offline', (e) =>{
+      alert('You are Offline!!!')
+      console.log('offline')
+    });
+  }
   
   getDate(str: string) { 
     return str.split(' ')[0];
@@ -30,10 +41,22 @@ export class AppComponent {
   }
   
   displayWeather() {
-    console.log('data',this.form)
-    this._weatherService.getWeather(this.form.controls['city'].value, this.form?.controls['country'].value).subscribe(
-      (data) => (this.weather = data),
-      (err) => console.log(err)
+    this._weatherService.getWeather(this.form.controls['city'].value, this.form?.controls['country'].value).subscribe((data: any) => 
+    {
+        if (data?.cod === "200") {
+    console.log('res',data)
+
+          this.weather = data
+        } else if (!data) {
+          this.weather = localStorage.getItem('data');
+          this.weather = JSON.parse(this.weather)
+        }
+    },
+      (err) => {
+        console.log('errrr',err);
+        this.weather = localStorage.getItem('data');
+        this.weather = JSON.parse(this.weather)
+      }
     );
   }
 }

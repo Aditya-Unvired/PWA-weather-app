@@ -21,6 +21,9 @@
 .p-card {
     background: #c1dcea !important;
 }
+.card1 {
+    background: black;
+}
 
 .column {
     float: left;
