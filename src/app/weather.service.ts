@@ -20,9 +20,8 @@ export class WeatherService {
     return this._http.get('assets/Bangalore.json').subscribe((data: any) => 
     {
             this.localData = data;
-            localStorage.setItem('data',JSON.stringify(this.localData))
     console.log('data 11',this.localData)
-
+    localStorage.setItem('data',JSON.stringify(this.localData))
     },
       error => {
             console.error(error);
