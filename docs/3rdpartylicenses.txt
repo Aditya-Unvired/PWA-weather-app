@@ -19,6 +19,9 @@ MIT
 @angular/service-worker
 MIT
 
+primeflex
+MIT
+
 primeicons
 MIT
 MIT License

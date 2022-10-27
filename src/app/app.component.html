@@ -1,37 +1,36 @@
-<div class="card center">
-  <form [formGroup]="form">
-    <div class="col-12">
-      <div class="p-fluid p-formgrid grid">
-          <div class="field col-12 md:col-12 mb-2">
-              <div class="p-float-label">
-                  <input id="float-input" type="text" pInputText formControlName="country"/>
-                  <label for="float-input" htmlFor="country">Country</label>
-              </div>
-          </div>
-      </div>
-    </div>
-
-    <div class="col-12">
+<div class="grid">
+  <div class=" lg:col-6 md:col-6 sm:col-6 center">
+    <form [formGroup]="form">
+      
         <div class="p-fluid p-formgrid grid">
             <div class="field col-12 md:col-12 mb-2">
                 <div class="p-float-label">
-                    <input type="text" id="float-input" pInputText formControlName="city"/>
-                    <label for="float-input">City</label>
+                    <input type="text" id="float-input" pInputText formControlName="country"/>
+                    <label for="float-input">Country</label>
                 </div>
             </div>
         </div>
-    </div>
-
-    <div style="text-align:center">
-        <button pButton pRipple type="button" label="Get Weather" class="custom-button p-button-sm" (click)="displayWeather()"></button>
-    </div>
-  </form>
+      
+        <div class="p-fluid p-formgrid grid">
+          <div class="field col-12 md:col-12 mb-2">
+              <div class="p-float-label">
+                  <input type="text" id="float-input" pInputText formControlName="city"/>
+                  <label for="float-input">City</label>
+              </div>
+          </div>
+        </div>
+      
+      <div style="text-align:center">
+          <button pButton pRipple type="button" label="Get Weather" class="custom-button p-button-sm" (click)="displayWeather()"></button>
+      </div>
+    </form>
+  </div>
 </div>
 
-<div class="row" *ngIf="weather">
-  <div class="column" *ngFor="let w of weather.list">
-    <p-card [header]="w.main.temp" [subheader]="getDate(w.dt_txt)"  class="card1" styleClass="p-card-shadow">
-      <span><b>Feels Like:</b> {{w.main.feels_like}} | <b>Humidity:</b> {{w.main.humidity}}</span>
+<div class="grid" *ngIf="weather">
+  <div class="col-12 lg:col-3 md:col-4" *ngFor="let w of weather.list" >
+    <p-card [header]="w.main.temp + '&deg;F'" [subheader]="getDate(w.dt_txt)">
+      <span><b>Feels Like:</b> {{w.main.feels_like}} &deg;F | <b>Humidity:</b> {{w.main.humidity}}</span>
       <ng-template pTemplate="footer" *ngFor="let a of w.weather">
         <span class="custom-font">{{a.description}}</span> 
       </ng-template>

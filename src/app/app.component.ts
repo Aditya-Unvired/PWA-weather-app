@@ -21,23 +21,16 @@ export class AppComponent {
   
   ngOnInit() {
     this._weatherService.loadDataLocally();
-    console.log('working')
     addEventListener('online', (e) =>{
       alert('You are Online!!!')
-      console.log('online') 
     })
     addEventListener('offline', (e) =>{
       alert('You are Offline!!!')
-      console.log('offline')
     });
   }
   
   getDate(str: string) { 
     return str.split(' ')[0];
-  }
-  
-  getTime(str: string) {
-    return str.split(' ')[1];
   }
   
   displayWeather() {
@@ -51,10 +44,8 @@ export class AppComponent {
         }
     },
       (err) => {
-        console.log('errrr',err);
         this.weather = localStorage.getItem('data');
         this.weather = JSON.parse(this.weather);
-        console.log('errr data',this.weather);
       }
     );
   }

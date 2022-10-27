@@ -12,6 +12,10 @@ import { CardModule } from 'primeng/card';
 import { InputTextModule } from 'primeng/inputtext';
 import { DividerModule } from 'primeng/divider';
 import { ToastModule } from 'primeng/toast';
+import {DataViewModule} from 'primeng/dataview';
+import {PanelModule} from 'primeng/panel';
+import {DialogModule} from 'primeng/dialog';
+import {RippleModule} from 'primeng/ripple';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
@@ -31,7 +35,11 @@ import { environment } from '../environments/environment';
     CardModule,
     InputTextModule,
     DividerModule,
+    DataViewModule,
     ToastModule,
+    PanelModule,
+    DialogModule,
+    RippleModule,
     ServiceWorkerModule.register('./ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
