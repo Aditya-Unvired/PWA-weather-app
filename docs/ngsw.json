@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1666861830422,
+  "timestamp": 1666862539289,
   "index": "weather-app/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "weather-app/favicon.ico",
         "weather-app/index.html",
-        "weather-app/main.61c1f36d15087f05.js",
+        "weather-app/main.011b7f73a12b9780.js",
         "weather-app/manifest.webmanifest",
         "weather-app/polyfills.019a1b69ab446621.js",
         "weather-app/runtime.b0168126f84316f3.js",
@@ -62,9 +62,9 @@
     "weather-app/color.dae87a04d07ca92b.png": "ff4c4bcb2207891b292f544edb4da9d2df5d45cf",
     "weather-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "weather-app/hue.8b1818380241e6ac.png": "f81ae627637a684614aa726e206c73ce099a01fd",
-    "weather-app/index.html": "b6f5e441f35d2d980eb9a745e50b0dd93e10d889",
-    "weather-app/main.61c1f36d15087f05.js": "8a580e1713ab26ad5fb78dc5809208fd8b71a258",
-    "weather-app/manifest.webmanifest": "fbc53136ff83e1b6a9c0263baefd69d46ee5a955",
+    "weather-app/index.html": "2eb67f8b00c187d02b953823d584131b31bab3cc",
+    "weather-app/main.011b7f73a12b9780.js": "fc8af0edd8711be6066f755f1a1797445819a50e",
+    "weather-app/manifest.webmanifest": "64af2eb70a190e4f3944b9ecd3677a894cfa1ef0",
     "weather-app/polyfills.019a1b69ab446621.js": "8af72949c49531b5812a3a952999741e070c8f7a",
     "weather-app/primeicons.0112589c5695a9ed.ttf": "ceeb46d594fde5cc507cdf8b70e38e78fe47653c",
     "weather-app/primeicons.943ab24c43224d29.svg": "d3332a45242b8f6edbf3f3c7176a280e7edcd961",
